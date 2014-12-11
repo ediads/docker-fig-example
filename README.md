@@ -29,7 +29,7 @@ fig up
 If this is your first time running these commands, they will need to download a lot of things.
 It will take a while, I recommed getting some coffee while you wait.
 
-After the app and associated services start, you should be able to see the memcached info from this url.
+After the app and associated services start, you should be able to see the memcached info from this url (assuming you added a localdocker entry to your /etc/hosts, if you didn't your docker ip is most likely 192.168.59.103).
 
 [http://localdocker:8080/docker-fig-example-1.0-SNAPSHOT/memcached](http://localdocker:8080/docker-fig-example-1.0-SNAPSHOT/memcached)
 
